@@ -67,6 +67,48 @@ Data Science Strategist | Creative Tech Leader
 Empowering youth through ethical innovation and inclusive design.
 
 
+# 📊 SQL Aggregation & Window Functions — Airbnb Clone Database
+
+## 🎯 Objective
+Use SQL aggregation and window functions to analyze booking data and rank properties.
+
+---
+
+## 📁 Directory Structure
+
+
+---
+
+## 📄 File Descriptions
+
+### `aggregations_and_window_functions.sql`
+Contains two SQL queries:
+
+1. **Aggregation Query — Total Bookings per User**  
+   Uses `COUNT(*)` and `GROUP BY` to calculate how many bookings each user has made.  
+   Results are sorted in descending order of total bookings.
+
+2. **Window Function Query — Property Ranking**  
+   Uses `RANK()` window function to rank properties based on the number of bookings.  
+   The query groups by `property_id`, counts bookings, and ranks them from most to least booked.
+
+---
+
+## 🧪 How to Use
+
+Run each query in your SQL environment connected to the Airbnb Clone database.  
+These queries are modular and can be adapted for dashboards, analytics, or performance insights.
+
+---
+
+## ✍️ Author
+
+**Grace Kavutu **  
+Data Science Strategist | Creative Tech Leader  
+Empowering youth through ethical innovation and inclusive design.
+
+
+
 
 
 
